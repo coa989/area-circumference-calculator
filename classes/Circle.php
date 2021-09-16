@@ -14,12 +14,12 @@ class Circle implements Shape
         $this->radius = $radius;
     }
 
-    public function areaCalculator(): int
+    public function areaCalculator(): float
     {
         return self::PI * ($this->radius * $this->radius);
     }
 
-    public function circumferenceCalculator(): int
+    public function circumferenceCalculator(): float
     {
         return self::PI * 2 * $this->radius;
     }
