@@ -4,4 +4,5 @@ use classes\Rectangle;
 
 require_once 'autoload.php';
 
-new Rectangle('test');
+$rectangle = new Rectangle(10, 15);
+var_dump($rectangle->areaCalculator(), $rectangle->circumferenceCalculator());
