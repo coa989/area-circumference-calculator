@@ -19,7 +19,7 @@ class Triangle implements Shape
 
     public function areaCalculator(): float
     {
-        return ($this->base * $this->height) / 2;
+        return round(($this->base * $this->height) / 2, 2);
     }
 
     public function circumferenceCalculator(): int

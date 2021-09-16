@@ -16,11 +16,11 @@ class Circle implements Shape
 
     public function areaCalculator(): float
     {
-        return self::PI * ($this->radius * $this->radius);
+        return round(self::PI * ($this->radius * $this->radius), 2);
     }
 
     public function circumferenceCalculator(): float
     {
-        return self::PI * 2 * $this->radius;
+        return round(self::PI * 2 * $this->radius, 2);
     }
 }
