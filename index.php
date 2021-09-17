@@ -1,5 +1,4 @@
 <?php
-
 use classes\Calculator;
 use classes\Circle;
 use classes\Hexagon;
