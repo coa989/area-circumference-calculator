@@ -4,6 +4,7 @@ use classes\Calculator;
 use classes\Circle;
 use classes\Hexagon;
 use classes\Rectangle;
+use classes\Rhombus;
 use classes\Triangle;
 
 require_once 'autoload.php';
@@ -13,6 +14,7 @@ $circle = new Circle(5899);
 $triangle = new Triangle(89, 155, null);
 $triangle1 = new Triangle(89, 155, 151);
 $hexagon = new Hexagon(10);
+$rhombus = new Rhombus(10,7, 15);
 
 echo Calculator::area($rectangle);
 echo "\n";
@@ -33,4 +35,8 @@ echo "\n";
 echo Calculator::area($hexagon);
 echo "\n";
 echo Calculator::circumference($hexagon);
+echo "\n";
+echo Calculator::area($rhombus);
+echo "\n";
+echo Calculator::circumference($rhombus);
 echo "\n";
