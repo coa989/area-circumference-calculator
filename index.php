@@ -2,6 +2,7 @@
 
 use classes\Calculator;
 use classes\Circle;
+use classes\Hexagon;
 use classes\Rectangle;
 use classes\Triangle;
 
@@ -11,6 +12,7 @@ $rectangle = new Rectangle(10, 15);
 $circle = new Circle(5899);
 $triangle = new Triangle(89, 155, null);
 $triangle1 = new Triangle(89, 155, 151);
+$hexagon = new Hexagon(10);
 
 echo Calculator::area($rectangle);
 echo "\n";
@@ -27,4 +29,8 @@ echo "\n";
 echo Calculator::area($triangle1);
 echo "\n";
 echo Calculator::circumference($triangle1);
+echo "\n";
+echo Calculator::area($hexagon);
+echo "\n";
+echo Calculator::circumference($hexagon);
 echo "\n";
