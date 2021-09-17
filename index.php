@@ -16,7 +16,6 @@ $triangle1 = new Triangle(89, 155, 151);
 $hexagon = new Hexagon(10);
 $rhombus = new Rhombus(10,7, 15);
 
-
 echo Calculator::area($rectangle);
 echo "\n";
 echo Calculator::circumference($rectangle);
